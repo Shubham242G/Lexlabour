@@ -48,12 +48,6 @@ const Navbar = () => {
         <li><a href="#" onClick={() => showPage("about")} className={`text-[0.72rem] tracking-[0.1em] uppercase px-3.5 py-1.5 rounded transition-colors font-medium ${
           activePage === "about" ? "text-[#A8C4E0]" : "text-white/65 hover:text-[#A8C4E0]"
         }`}>About</a></li>
-        <li><a href="#" onClick={() => showPage("library")} className={`text-[0.72rem] tracking-[0.1em] uppercase px-3.5 py-1.5 rounded transition-colors font-medium ${
-          activePage === "library" ? "text-[#A8C4E0]" : "text-white/65 hover:text-[#A8C4E0]"
-        }`}>Law Library</a></li>
-        <li><a href="#" onClick={() => showPage("insights")} className={`text-[0.72rem] tracking-[0.1em] uppercase px-3.5 py-1.5 rounded transition-colors font-medium ${
-          activePage === "insights" ? "text-[#A8C4E0]" : "text-white/65 hover:text-[#A8C4E0]"
-        }`}>Insights</a></li>
         <li><a href="#" onClick={() => showPage("contact")} className={`text-[0.72rem] tracking-[0.1em] uppercase px-3.5 py-1.5 rounded transition-colors font-medium ${
           activePage === "contact" ? "text-[#A8C4E0]" : "text-white/65 hover:text-[#A8C4E0]"
         }`}>Contact</a></li>
