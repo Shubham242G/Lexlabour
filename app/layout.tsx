@@ -33,7 +33,7 @@ const bebasNeue = Bebas_Neue({
 });
 
 export const metadata: Metadata = {
-  title: "LexLabour — India's Labour Law Advisory",
+  title: "Labour Law— India's Labour Law Advisory",
   description: "Expert labour law compliance and advisory services in India",
 };
 

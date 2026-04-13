@@ -22,7 +22,7 @@ export default function EmployeePortal() {
 
   return (
     <div>
-      <section className="relative py-40 px-[60px] bg-[#061526] border-b border-white/10 overflow-hidden max-lg:px-5 max-lg:pt-30 max-lg:pb-15">
+      <section className="relative py-20 px-[60px] bg-[#061526] border-b border-white/10 overflow-hidden max-lg:px-5 max-lg:pt-15 max-lg:pb-10">
         <div className="absolute pointer-events-none rounded-full top-[-200px] left-[-200px] w-[600px] h-[600px] bg-radial from-white/4 to-transparent"></div>
         <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(255,255,255,.025)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.025)_1px,transparent_1px)] bg-[length:60px_60px]"></div>
         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-15 items-end">

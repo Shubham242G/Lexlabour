@@ -40,7 +40,7 @@ const Navbar = () => {
       <a href="#" onClick={() => showPage("home")} className="font-['Bebas_Neue'] text-[1.6rem] tracking-[0.12em] text-white no-underline flex items-center gap-3">
         <Image 
                         src="/assets/logo.png" 
-                        alt="LexLabour Logo" 
+                        alt="Labour Law Logo" 
                         width={300} 
                         height={300} 
                         className="w-150 h-150 object-contain mr-30"

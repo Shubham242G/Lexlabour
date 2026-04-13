@@ -23,7 +23,7 @@ const Footer = () => {
               {/* Custom Logo - Replace with your logo */}
               <Image 
                 src="/assets/logo.png" 
-                alt="LexLabour Logo" 
+                alt="Labour Law Logo" 
                 width={300} 
                 height={300} 
                 className="w-150 h-150 object-contain mt-5"
@@ -66,7 +66,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-          <div className="text-white/40 text-[0.65rem]">© 2025 LexLabour · Bar Council of India Compliant · New Delhi, India</div>
+          <div className="text-white/40 text-[0.65rem]">© 2025 Labour Law · Bar Council of India Compliant · New Delhi, India</div>
           <div className="text-white/40 text-[0.65rem]">Privacy Policy · Terms of Use · Disclaimer</div>
         </div>
       </div>

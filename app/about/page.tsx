@@ -26,7 +26,7 @@ export default function AboutPage() {
       {/* Hero Section */}
       <section className="about-hero py-32 px-[60px] border-b border-white/15 bg-[#061526] max-lg:px-5 max-lg:pt-24 max-lg:pb-12">
         <div className="max-w-7xl mx-auto">
-          <div className="eyebrow mb-4">About LexLabour</div>
+          <div className="eyebrow mb-4">About Labour Law</div>
           <h1 className="display">
             17 Years.<br />One Specialisation.<br /><em>Two Sides Served.</em>
           </h1>
@@ -47,7 +47,7 @@ export default function AboutPage() {
                   <div className="relative w-full h-full min-h-[300px] rounded-xl overflow-hidden border-2 border-[#A8C4E0]/30">
                     <Image
                       src="/assets/GAURAV-SHARMA-UNSAATHI.jpg"
-                      alt="Gaurav Sharma - Founder of LexLabour"
+                      alt="Gaurav Sharma - Founder of Labour Law"
                       fill
                       className="object-cover"
                     />
@@ -99,7 +99,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-5 flex-1">
                 <p className="text-[0.95rem] leading-[1.85] text-white/65">
-                  LexLabour was established on a foundational principle: that both sides of the employment relationship deserve expert, accessible legal counsel. For too long, quality labour law advice was reserved for large corporations with in-house legal teams. <strong className="text-white font-medium">Individual employees and small businesses were left to navigate a complex statutory landscape alone.</strong>
+                  Labour Law was established on a foundational principle: that both sides of the employment relationship deserve expert, accessible legal counsel. For too long, quality labour law advice was reserved for large corporations with in-house legal teams. <strong className="text-white font-medium">Individual employees and small businesses were left to navigate a complex statutory landscape alone.</strong>
                 </p>
                 <p className="text-[0.95rem] leading-[1.85] text-white/65">
                   Over 17 years of active practice across Delhi's Labour Courts, Industrial Tribunals, and High Court, our team has handled every category of labour dispute and compliance failure. We have seen what happens when businesses do not take compliance seriously — and what happens when employees do not know their rights.

@@ -23,12 +23,13 @@ export default function HomePage() {
 
   return (
     <div>
-      <section className="relative min-h-screen bg-[#061526] overflow-hidden">
+      <section className="relative min-h-screen bg-[#061526] overflow-hidden -mt-0">
         <div className="absolute inset-0 pointer-events-none bg-[linear-gradient(rgba(255,255,255,.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,.03)_1px,transparent_1px)] bg-[length:60px_60px]"></div>
         <div className="absolute top-[-20%] right-[-10%] w-[700px] h-[700px] rounded-full bg-radial from-white/5 to-transparent pointer-events-none"></div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 items-center px-[60px] pt-20 pb-0 relative z-10 min-h-screen">
-          <div className="py-20">
+        {/* Changed: Reduced padding-top from pt-20 to pt-0 or pt-4 */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 items-center px-[60px] pt-4 pb-0 relative z-10 min-h-screen">
+          <div className="py-12">
             <div className="eyebrow mb-7">India&apos;s Labour Law Advisory</div>
 
             <h1 className="display mb-7">
@@ -220,7 +221,7 @@ export default function HomePage() {
 
       <div className="bg-white/5 border-y border-white/10 py-[70px] px-[60px] grid grid-cols-1 lg:grid-cols-2 gap-20 items-center max-lg:px-5 max-lg:py-12">
         <div>
-          <div className="eyebrow mb-4">About LexLabour</div>
+          <div className="eyebrow mb-4">About Labour Law</div>
 
           <h2 className="sec-title mb-5.5">
             India&apos;s dedicated
@@ -229,7 +230,7 @@ export default function HomePage() {
           </h2>
 
           <p className="text-[0.9rem] leading-[1.85] text-white/65 mb-4">
-            LexLabour was established to serve two equally important clients: the{" "}
+            Labour Law was established to serve two equally important clients: the{" "}
             <strong className="text-white font-normal">business that needs to stay compliant and protected</strong>, and the{" "}
             <strong className="text-white font-normal">worker whose rights have been violated</strong>. For 17 years, we have represented both sides with the same rigour, expertise, and commitment to clear outcomes.
           </p>
