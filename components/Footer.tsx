@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const Footer = () => {
   const router = useRouter();
@@ -19,16 +20,24 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div className="footer-brand">
             <a href="#" onClick={() => showPage("home")} className="font-['Bebas_Neue'] text-[1.4rem] tracking-[0.12em] text-white no-underline flex items-center gap-2.5 mb-3.5">
-              <div className="w-6 h-6 border border-white/40 flex items-center justify-center text-[0.55rem] tracking-wider text-white">LL</div>
-              Lex<span className="text-[#A8C4E0]">Labour</span>
+              {/* Custom Logo - Replace with your logo */}
+              <Image 
+                src="/assets/logo.png" 
+                alt="LexLabour Logo" 
+                width={300} 
+                height={300} 
+                className="w-150 h-150 object-contain mt-5"
+              />
             </a>
             <p className="text-white/55 text-[0.78rem] leading-relaxed max-w-[220px]">India's dedicated labour law advisory. Serving employers and employees with formal legal counsel since 2007.</p>
             <div className="mt-5 flex gap-2.5">
               <a href="#" onClick={() => showPage("employer")} className="px-4 py-2 text-[0.65rem] tracking-[0.1em] uppercase font-medium rounded bg-white text-[#061526] border border-white hover:bg-[#E8F0FA] transition-all flex items-center gap-2">
-                🏢 Employer Portal
+                <img src="/assets/employer-portal.png" alt="Employer" className="w-3.5 h-3.5" />
+                Employer Portal
               </a>
               <a href="#" onClick={() => showPage("employee")} className="px-4 py-2 text-[0.65rem] tracking-[0.1em] uppercase font-medium rounded border border-white/30 text-white hover:bg-white/10 transition-all flex items-center gap-2">
-                👤 Employee Portal
+                <img src="/assets/employee-portal.png" alt="Employee" className="w-3.5 h-3.5" />
+                Employee Portal
               </a>
             </div>
           </div>

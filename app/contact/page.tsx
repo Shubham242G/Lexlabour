@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 declare global {
   interface Window {
@@ -42,7 +43,9 @@ export default function ContactPage() {
                     : "hover:border-white/30 hover:bg-white/5"
                 }`}
               >
-                <div className="text-[1.4rem] mb-2">🏢</div>
+                <div className="mb-2">
+                  <Image src="/assets/employer-portal.png" alt="Employer" width={28} height={28} />
+                </div>
                 <div className="text-[0.68rem] tracking-[0.12em] uppercase text-[#A8C4E0] mb-1">Employer</div>
                 <div className="text-[0.74rem] text-white/65 leading-[1.55]">
                   Company, HR team, startup, or factory seeking compliance advisory
@@ -56,7 +59,9 @@ export default function ContactPage() {
                     : "hover:border-white/30 hover:bg-white/5"
                 }`}
               >
-                <div className="text-[1.4rem] mb-2">👤</div>
+                <div className="mb-2">
+                  <Image src="/assets/employee-portal.png" alt="Employee" width={28} height={28} />
+                </div>
                 <div className="text-[0.68rem] tracking-[0.12em] uppercase text-[#A8C4E0] mb-1">Employee</div>
                 <div className="text-[0.74rem] text-white/65 leading-[1.55]">
                   Individual seeking rights assistance, wage recovery, or legal representation

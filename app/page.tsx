@@ -1,6 +1,7 @@
 "use client";
 
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 import ScrollReveal from "../components/ScrollReveal";
 
 declare global {
@@ -49,9 +50,10 @@ export default function HomePage() {
                   e.preventDefault();
                   showPage("employer");
                 }}
-                className="btn btn-gold"
+                className="btn btn-gold flex items-center gap-2"
               >
-                🏢 Employer Advisory
+                <Image src="/assets/employer-advisory.png" alt="Employer" width={18} height={18} />
+                Employer Advisory
               </a>
 
               <a
@@ -60,9 +62,10 @@ export default function HomePage() {
                   e.preventDefault();
                   showPage("employee");
                 }}
-                className="btn btn-outline-gold"
+                className="btn btn-outline-gold flex items-center gap-2"
               >
-                👤 Employee Assistance
+                <Image src="/assets/empoyee-assistance.png" alt="Employee" width={18} height={18} />
+                Employee Assistance
               </a>
             </div>
           </div>
@@ -78,7 +81,8 @@ export default function HomePage() {
               <div className="bg-white/10 p-13 relative overflow-hidden flex flex-col gap-6 transition-all duration-400 min-h-[420px] hover:bg-white/15 border border-white/12 border-r-0 hover:border-white/50 hover:shadow-[-8px_0_40px_rgba(168,196,224,0.1)]">
                 <div>
                   <div className="inline-flex items-center gap-2 text-[0.6rem] tracking-[0.18em] uppercase border border-white/20 py-1.5 px-3.5 w-fit text-white/65">
-                    🏢 For Employers
+                    <Image src="/assets/employer-portal.png" alt="Employer" width={14} height={14} />
+                    For Employers
                   </div>
 
                   <h2 className="font-['Playfair_Display'] text-[1.9rem] font-semibold leading-[1.15] tracking-[-0.01em] mt-4 mb-3">
@@ -121,7 +125,7 @@ export default function HomePage() {
                   >
                     Enter Employer Portal
                     <div className="w-11 h-11 border border-white flex items-center justify-center text-base text-[#061526] flex-shrink-0 bg-white">
-                      →
+                      <Image src="/assets/employer-portal.png" alt="Arrow" width={16} height={16} />
                     </div>
                   </a>
                 </div>
@@ -130,7 +134,8 @@ export default function HomePage() {
               <div className="bg-white/5 p-13 relative overflow-hidden flex flex-col gap-6 transition-all duration-400 min-h-[420px] hover:bg-white/10 border border-white/12 hover:border-white/50 hover:shadow-[8px_0_40px_rgba(168,196,224,0.08)]">
                 <div>
                   <div className="inline-flex items-center gap-2 text-[0.6rem] tracking-[0.18em] uppercase border border-white/20 py-1.5 px-3.5 w-fit text-[#A8C4E0]">
-                    👤 For Employees
+                    <Image src="/assets/employee-portal.png" alt="Employee" width={14} height={14} />
+                    For Employees
                   </div>
 
                   <h2 className="font-['Playfair_Display'] text-[1.9rem] font-semibold leading-[1.15] tracking-[-0.01em] mt-4 mb-3">
@@ -173,7 +178,7 @@ export default function HomePage() {
                   >
                     Enter Employee Portal
                     <div className="w-11 h-11 border border-white flex items-center justify-center text-base text-[#A8C4E0] flex-shrink-0">
-                      →
+                      <Image src="/assets/employee-portal.png" alt="Arrow" width={16} height={16} />
                     </div>
                   </a>
                 </div>
@@ -355,9 +360,10 @@ export default function HomePage() {
               e.preventDefault();
               window.openModal?.("employer");
             }}
-            className="btn btn-white"
+            className="btn btn-white flex items-center gap-2"
           >
-            🏢 Employer Consultation
+            <Image src="/assets/employer-consultation.png" alt="Employer" width={25} height={25} />
+            Employer Consultation
           </a>
 
           <a
@@ -366,9 +372,10 @@ export default function HomePage() {
               e.preventDefault();
               window.openModal?.("employee");
             }}
-            className="btn btn-outline-gold border-[#061526] text-[#061526] hover:bg-black/5"
+            className="btn btn-outline-gold border-[#061526] text-[#061526] hover:bg-black/5 flex items-center gap-2"
           >
-            👤 Employee Consultation
+            <Image src="/assets/employee-consultation.png" alt="Employee" width={25} height={25} />
+            Employee Consultation
           </a>
         </div>
       </div>
